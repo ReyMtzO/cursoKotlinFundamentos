@@ -1,9 +1,6 @@
-package ProgramacionOrientadaObjetos
+package programacionOrientadaObjetos.objetosPropiedadesInstacias
 
-import ProgramacionOrientadaObjetos.clases.Nota
-import java.util.*
-
-// Una "clase" se declara de la siguiente manera: tenemos la palabra reservada class, después el nombre de la clase iniciado con mayúscula (camelCase)
+// Una "clase" se declara de la siguiente manera: tenemos la palabra reservada class, después el nombre de la clase iniciado con mayúscula (CamelCase)
 // Se recomienda no separar por guiones bajos ni puntos, etc... Y pondremos llaves para delimitar el cuerpo de la clase
 
 
@@ -14,7 +11,7 @@ import java.util.*
 * class Nota {
 *     var nombre: String = ""
 *     var contenido: String = ""
-*     var fechaCreacion: Darte = Date()
+*     var fechaCreacion: Date = Date()
 * }
 */
 
@@ -24,6 +21,7 @@ import java.util.*
 // El primer Date es para declarar el objeto, y al segundo le agregamos paréntesis () para crear su "Instancia"
 // Date es una clase que nos proporciona java, para poder trabajar con las fechas ... public Date()
 
+/*
 fun main() {
 
     val nota1 = Nota()
@@ -53,7 +51,7 @@ fun main() {
 
 
 
-/*
+
     println(nota1.nombre)
     println(nota1.contenido)
     println(nota1.fechaCreacion)
