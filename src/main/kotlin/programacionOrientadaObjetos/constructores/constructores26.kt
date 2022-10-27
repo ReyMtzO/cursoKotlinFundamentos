@@ -1,7 +1,7 @@
 package programacionOrientadaObjetos
 
-import programacionOrientadaObjetos.clasesPOO.Nota
-import java.util.*
+//import programacionOrientadaObjetos.clasesPOO.Nota
+//import java.util.*
 
 // El fin de un "constructor" es inicializar el objeto al crear la instancia, es decir, asignarle los valores iniciales
 // Tenemos varios tipos de constructores y vamos a iniciar conociendo al constructor "primario"
@@ -12,7 +12,7 @@ Clase con el constructor:
 
 class Nota(var nombre: String, var contenido: String, var fechaCreacion: Date){
 }
-*/
+
 
 
 fun main() {
@@ -35,5 +35,6 @@ fun main() {
             -------------------------
         """.trimIndent())
     }
-
 }
+
+ */

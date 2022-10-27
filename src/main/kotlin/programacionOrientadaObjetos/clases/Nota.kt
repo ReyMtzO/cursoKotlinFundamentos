@@ -1,4 +1,4 @@
-package ProgramacionOrientadaObjetos.clases
+package programacionOrientadaObjetos.clases
 
 import java.util.*
 

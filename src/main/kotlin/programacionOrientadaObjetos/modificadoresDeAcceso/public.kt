@@ -1,5 +1,6 @@
 package programacionOrientadaObjetos.modificadoresDeAcceso
 
+/*
 import programacionOrientadaObjetos.clasesPOO.Nota
 import java.util.Date
 
@@ -22,3 +23,5 @@ fun main() {
 }
 
 // Es accesible desde cualquier lugar porque está denotado con la keyword public de manera implícita
+
+*/
