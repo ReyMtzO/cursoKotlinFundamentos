@@ -1,5 +1,6 @@
 package programacionOrientadaObjetos
 
+/*
 import programacionOrientadaObjetos.clasesPOO.Nota
 import java.util.*
 
@@ -25,3 +26,5 @@ fun main() {
 // Entonces los constructores secundarios nos sirven para poder instanciar nuestra clase con diferentes valores o diferente número de propiedades
 // En la primera val nota1, la fecha no nos interesa, por lo tanto toma la fecha del sistema
 // En la segunda val nota2, sí nos interesa tener una fecha específica, entonces nos manda este dato mediante la clase con constructor primario
+
+*/
