@@ -1,5 +1,6 @@
 package programacionOrientadaObjetos.clases
 
+/*
 import java.util.*
 
 class Nota {
@@ -7,3 +8,5 @@ class Nota {
     var contenido: String = ""
     var fechaCreacion: Date = Date()
 }
+
+ */
