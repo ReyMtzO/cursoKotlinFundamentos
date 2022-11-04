@@ -1,5 +1,5 @@
 package programacionOrientadaObjetos.objetosPropiedadesInstacias
-
+/*
 import programacionOrientadaObjetos.clases.Nota
 
 // Una "clase" se declara de la siguiente manera: tenemos la palabra reservada class, después el nombre de la clase iniciado con mayúscula (CamelCase)
@@ -65,3 +65,4 @@ fun main() {
 }
 */
 
+*/

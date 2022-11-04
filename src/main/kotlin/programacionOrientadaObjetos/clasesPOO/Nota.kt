@@ -1,7 +1,7 @@
 package programacionOrientadaObjetos.clasesPOO
 
 import java.util.*
-
+/*
 // Clase para ejemplo de metodos.totalCaracteres, en donde declararemos un método
 class Nota(var nombre: String, var contenido: String, var fechaCreacion: Date) {          // Tenemos la keyword "var" para poder acceder a estas propiedades
 
@@ -71,3 +71,5 @@ class Nota(var nombre: String, var contenido: String, var fechaCreacion: Date){
 
 // El constructor secundario nos permite realizar acciones cuando se crea la instancia de la clase
 // El bloque de inicialización es algo que se va a ejecutar cuando creamos una instancia, en este caso es el println entre {} del constructor secundario
+
+ */

@@ -1,5 +1,5 @@
 package programacionOrientadaObjetos.metodos
-
+/*
 import programacionOrientadaObjetos.clasesPOO.Nota
 import java.util.*
 
@@ -22,3 +22,6 @@ fun main() {
 /**
  * Con este ejercicio, aprendemos a declarar métodos dentro de nuestras clases
  **/
+
+
+ */
