@@ -11,6 +11,10 @@ fun main() {
     val residuo = numero % 6
 
 
+    val multiplicacion2 : Int = numero
+    println("Esta es la multiplicacion con el metodo times: " + multiplicacion2.times(2))
+
+
     println(resultadoSuma)
     println(resta)
     println(multiplicacion)
