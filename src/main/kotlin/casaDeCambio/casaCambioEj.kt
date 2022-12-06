@@ -7,7 +7,7 @@ var pesosEnCaja = 0.0
 var dolaresEnCaja = 0.0
 
 fun main() {
-                            //Estas 3 operaciones en código las dejo en la función main, porque sólo quiero ejecutarlo una vez
+                            //Estas 3 operaciones en código las dejo en la función main, porque solo quiero ejecutarlo una vez
     print("Ingresa la tasa de cambio de dólar a pesos: $")
     tasaCambio = readLine()!!.toDouble()
 
@@ -43,5 +43,5 @@ fun controlOperaciones() {
         Dólares en caja: $${DecimalFormat(formato).format(dolaresEnCaja)}
     """.trimIndent())
 
-    controlOperaciones()    // Al volver a poner esta función hacemos "recursividad" y el IDE lo marca en la linea de código
+    controlOperaciones()    // Al volver a poner esta función hacemos "recursividad" y el IDE lo marca en la línea de código
 }                           // Es una función que puede llamarse a sí misma

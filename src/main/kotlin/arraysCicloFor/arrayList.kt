@@ -5,7 +5,7 @@ package arraysCicloFor
 /*
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
     println(empleados.size)             // Imprime el tamaño del arreglo con 3 elementos
 
@@ -20,7 +20,7 @@ fun main() {
 
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
     for (empleado in empleados) println(empleado)   // Usamos un ciclo for que al ser una instrucción se puede poner sin llaves
     println("-------------------")                  // Agregamos una pequeña separación
@@ -29,13 +29,13 @@ fun main() {
 
     for (empleado in empleados) println(empleado)
     println("-------------------")                  // Ahora imprimirá el nuevo elemento y se verá una separación entre los nombres
-                                                    // Imprime Jesus, Alberto, Claudia y Alejandro (en ese orden)
+                                                    // Imprime Jesús, Alberto, Claudia y Alejandro (en ese orden)
 }
 
 
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
     empleados.add("Alejandro")
 
@@ -49,7 +49,7 @@ fun main() {
 
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
     empleados.add("Alejandro")
 
@@ -67,16 +67,16 @@ fun main() {
 
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
     empleados.add("Alejandro")
 
-    empleados.sort()
+    empleados.sort()                    // En orden quedan: Alberto[0], Alejandro[1], Claudia[2], Jesús[3]
 
     for (empleado in empleados) println(empleado)
     println("-------------------")
 
-    empleados[3] = "Maria"     // Re asignamos valores: el índice 3 era Jesus, ahora lo reemplazamos con Maria
+    empleados[3] = "María"     // Reasignamos valores: el índice 3 era Jesús, ahora lo reemplazamos con María
 
     for (empleado in empleados) println(empleado)
     println("-------------------")

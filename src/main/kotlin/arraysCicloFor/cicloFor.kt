@@ -4,7 +4,7 @@ package arraysCicloFor
 // Podremos ejecutar de manera automática un array con N cantidad de datos, N cantidad de veces
 
 /*
-"for" es la palabra reservada, luego entre paréntesis ponemos una "variable" (i), seguida de la pal reserv "in" y después un rango en los "argumentos"
+"for" es la keyword, luego entre paréntesis ponemos una "variable" (i), seguida de la keyword "in" y después un rango en los "argumentos"
 por ejemplo: 0...5. El ciclo comenzará en 0, se ejecuta el bloque de código y ahora repite la acción pero con el num 1, y así sucesivamente hasta
 ejecutarse el argumento 5. En ese momento el ciclo for finaliza y se procede a ejecutar las líneas de código que siguen.
  */
@@ -33,11 +33,11 @@ fun main() {
 
     val valores =  intArrayOf(10, 15, 25, 45, 80, 60, 10)
 
-    var sumatoria = 0             // Creamos la variable sumatoria de tipo var porque la vamos a re asignar y le damos un 0 de entrada
+    var sumatoria = 0             // Creamos la variable sumatoria de tipo var porque la vamos a reasignar y le damos un 0 de entrada
 
     for (i in 0 until valores.size) {
-        sumatoria += valores[i]            // Es como decir: sumatoria == sumatoria + valores en la posicion i, por tanto va a recorrer el bloque
-    }                                      // de codigo y va a hacer la sumatoria del array
+        sumatoria += valores[i]            // Es como decir: sumatoria == sumatoria + valores en la posición i, por tanto va a recorrer el bloque
+    }                                      // de código y va a hacer la sumatoria del array
 
     println(sumatoria)                  // Para sumatoria
   //  println(sumatoria/valores.size)       // Para promedio
@@ -53,7 +53,7 @@ fun main() {
 
 fun main() {
 
-    val empleados = arrayOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayOf("Jesús", "Alberto", "Claudia")
 
     for (i in 0 until empleados.size) {
         println(empleados[i])
@@ -66,7 +66,7 @@ fun main() {
 }
 
 /*
-     De esta manera podemos imprimir los nombres de los empleados con un index... con la funcion withIndex nos regresa 2 elementos
+     De esta manera podemos imprimir los nombres de los empleados con un index... con la función withIndex nos regresa 2 elementos
 
         for ( ( i, empleado) in empleados.withIndex()) {
             println("$empleado - $i")
