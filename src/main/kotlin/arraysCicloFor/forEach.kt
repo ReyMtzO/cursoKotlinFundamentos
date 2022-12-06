@@ -2,7 +2,7 @@ package arraysCicloFor
 /*
 fun main() {
 
-    val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+    val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
       for(empleado in empleados){
           println(empleado)
@@ -22,7 +22,7 @@ fun main() {
 
     fun main() {
 
-        val empleados = arrayListOf("Jesus", "Alberto", "Claudia")
+        val empleados = arrayListOf("Jesús", "Alberto", "Claudia")
 
         empleados.forEachIndexed { i, empleado ->    // Declaramos la variable i que será nuestro índice
             println("$i - $empleado")               // Imprime los elementos con un índice anexado

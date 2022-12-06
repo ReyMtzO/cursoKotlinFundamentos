@@ -12,7 +12,7 @@ fun main() {
 
 
     val multiplicacion2 : Int = numero
-    println("Esta es la multiplicacion con el metodo times: " + multiplicacion2.times(2))
+    println("Esta es la multiplicación con el método times: " + multiplicacion2.times(2))
 
 
     println(resultadoSuma)
